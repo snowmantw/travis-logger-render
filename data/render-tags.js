@@ -21,7 +21,15 @@
       var text = [...line.querySelectorAll('span')].map((span) => {
             return span.textContent;
           }).join(''),
-          doms = tagMatcher.parse(text);
+          doms = null,
+          matcher = 'Screenshot: data:image/png;base64,',
+          screenshotMatch = text.match(matcher);
+
+      if (screenshotMatch) {
+        console.log('>>>> get one match');
+        text = text.replace(matcher, '<img src="data:image/png;base64,') + '" />';
+      }
+      doms = tagMatcher.parse(text);
       doms.forEach((dom) => {
         line.appendChild(dom);
       });
