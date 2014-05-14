@@ -1,8 +1,8 @@
 {
-  "name": "travis-logger",
-  "title": "travis-logger",
+  "name": "travis-logger-render",
+  "title": "travis-logger-render",
   "id": "jid1-CQip9Teez6DyeQ",
-  "description": "a basic add-on",
+  "description": "render Travis logs",
   "author": "",
   "license": "MPL 2.0",
   "version": "0.1"
