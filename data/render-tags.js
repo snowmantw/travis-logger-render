@@ -26,7 +26,6 @@
           screenshotMatch = text.match(matcher);
 
       if (screenshotMatch) {
-        console.log('>>>> get one match');
         text = text.replace(matcher, '<img src="data:image/png;base64,') + '" />';
       }
       doms = tagMatcher.parse(text);
