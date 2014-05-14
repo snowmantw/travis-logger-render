@@ -8,4 +8,4 @@ There should be a tiny button beside the logs button, which comes with a `R` cha
 
 When the log got fully expanded, press the button to render tags in the log.
 
-![example](https://raw.github.com/snowmantw/travis-logger-render/travis-logger-render.png)
+![example](https://raw.githubusercontent.com/snowmantw/travis-logger-render/master/travis-logger-render.png)
